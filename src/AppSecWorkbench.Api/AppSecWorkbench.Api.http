@@ -1,0 +1,6 @@
+@AppSecWorkbench.Api_HostAddress = http://localhost:5123
+
+GET {{AppSecWorkbench.Api_HostAddress}}/api/findings
+Accept: application/json
+
+###
