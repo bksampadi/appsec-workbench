@@ -2,4 +2,7 @@
   <Folder Name="/src/">
     <Project Path="src/AppSecWorkbench.Api/AppSecWorkbench.Api.csproj" />
   </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AppSecWorkbench.Api.Tests/AppSecWorkbench.Api.Tests.csproj" />
+  </Folder>
 </Solution>
