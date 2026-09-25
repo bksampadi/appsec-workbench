@@ -16,7 +16,7 @@ public class FindingsController : ControllerBase
             {
                 Title = "Possible cross-tenant object access",
                 Category = "Borken Access Control",
-                Severity = "High"
+                Severity = FindingSeverity.High
             }
         };
 

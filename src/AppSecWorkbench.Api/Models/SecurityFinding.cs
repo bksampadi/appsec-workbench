@@ -8,9 +8,9 @@ public class SecurityFinding
 
     public required string Category { get; init; }
 
-    public required string Severity { get; init; }
+    public required FindingSeverity Severity { get; init; }
 
-    public string Status { get; init; } = "NeedsInvestigation";
+    public FindingStatus Status { get; init; } = FindingStatus.NeedsInvestigation;
 
     public DateTime CreatedAtUtc { get; init; }  = DateTime.UtcNow;
 }
