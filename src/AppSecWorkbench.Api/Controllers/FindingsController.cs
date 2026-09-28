@@ -15,7 +15,7 @@ public class FindingsController : ControllerBase
             new SecurityFinding
             {
                 Title = "Possible cross-tenant object access",
-                Category = "Borken Access Control",
+                Category = "Broken Access Control",
                 Severity = FindingSeverity.High
             }
         };

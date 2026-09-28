@@ -31,7 +31,7 @@ Run:
 dotnet run --project src/AppSecWorkbench.Api
 ```
 
-The development API Exposes:
+The development API exposes:
 
 ```
 GET /api/findings

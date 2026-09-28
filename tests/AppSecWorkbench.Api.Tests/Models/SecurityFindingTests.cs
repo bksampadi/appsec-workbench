@@ -5,7 +5,7 @@ namespace AppSecWorkbench.Api.Tests.Models;
 public class SecurityFindingTests
 {
     [Fact]
-    public void Newfinding_HasExpectedDefaults()
+    public void NewFinding_HasExpectedDefaults()
     {
         var finding = new SecurityFinding
         {
