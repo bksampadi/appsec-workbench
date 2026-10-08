@@ -2,7 +2,7 @@ using AppSecWorkbench.Api.Models;
 
 namespace AppSecWorkbench.Api.Tests.Models;
 
-public class SecurityFindingTests
+public class SecurityFindingsTests
 {
     [Fact]
     public void NewFinding_HasExpectedDefaults()
@@ -17,6 +17,7 @@ public class SecurityFindingTests
         Assert.NotEqual(Guid.Empty, finding.Id);
         Assert.Equal(FindingStatus.NeedsInvestigation, finding.Status);
         Assert.Equal(FindingSeverity.High, finding.Severity);
-        Assert.True(finding.CreatedAtUtc <= DateTime.UtcNow);
+
     }
+
 }

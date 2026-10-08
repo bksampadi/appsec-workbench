@@ -12,5 +12,6 @@ public class SecurityFinding
 
     public FindingStatus Status { get; init; } = FindingStatus.NeedsInvestigation;
 
-    public DateTime CreatedAtUtc { get; init; }  = DateTime.UtcNow;
+    public DateTime CreatedAtUtc { get; init; } = DateTime.UtcNow;
+
 }
