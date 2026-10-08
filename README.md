@@ -7,6 +7,15 @@ The project is built around a simple workflow:
 
 **find → reproduce → trace → understand → fix → verify**
 
+## Architecture
+
+```mermaid
+flowchart LR
+    C[HTTP Client] -->|GET /api/findings| F[FindingsController]
+    F --> S[SecurityFinding]
+    T[xUnit Tests] --> S
+```
+
 ## Current status
 
 Early development.
@@ -15,7 +24,9 @@ The current implementation includes:
 
 - ASP.NET Core API
 - initial security finding domain model
+- typed finding severity and status
 - read-only findings API endpoint
+- xUnit domain tests
 
 ## Development
 
